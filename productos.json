@@ -1,0 +1,15 @@
+[
+    {
+      "nombre": "Limpieza Facial Profunda",
+      "descripcion": "Elimina impurezas y renueva tu piel.",
+      "precio": "US$ 50",
+      "imagen": "img/limpieza-facial.jpg"
+    },
+    {
+      "nombre": "Depilación Láser",
+      "descripcion": "Tecnología indolora y efectiva.",
+      "precio": "US$ 80",
+      "imagen": "img/depilacion-laser.jpg"
+    }
+  ]
+  

@@ -1,0 +1,44 @@
+<!-- Html/productos.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../Js/index.js"></script> <!-- Este JS ya contiene el fetch del header -->
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <main>
+
+    <section id="turnos">
+      <h1>Reservá tu turno</h1>
+      <form id="form-turno">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+  
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" required>
+  
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" required>
+  
+        <button type="submit">Reservar</button>
+      </form>
+      <div id="mensaje"></div>
+    </section>
+
+  </main>
+  
+
+</body>
+
+</html>

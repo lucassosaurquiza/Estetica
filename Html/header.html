@@ -1,0 +1,38 @@
+
+<header>
+    <nav>
+        <div class="nav">
+            <!-- Logo -->
+            <div class="imagen">
+                <a href="/">
+                    <img class="nav-img" src="../Assets/Logo-real-negro.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Íconos de navegación (ocultos en móvil) -->
+            <div class="box-seccion">
+                <div class="productos">
+                    <a href="/Html/productos.html" data-page="productos"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+                <div class="WhatApp">
+                    <a href="https://wa.me/543794787091"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="Calendario">
+                    <a href="/Html/turnos.html" data-page="Calendario"><i class="fas fa-calendar-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Botón hamburguesa (solo móvil) -->
+            <button class="hamburger-menu fas fa-bars" onclick="abrirMenu()"></button>
+        </div>
+    </nav>
+
+    <!-- Menú lateral slide -->
+    <aside id="menuSlide" class="menu-slide">
+        <button class="cerrar-menu" onclick="cerrarMenu()">✖</button>
+        <h2>Menú rápido</h2>
+        <a href="/Html/productos.html"><i class="fas fa-shopping-bag"></i> Productos</a>
+        <a href="https://wa.me/543794787091"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="/Html/turnos.html"><i class="fas fa-calendar-alt"></i> Turnos</a>
+    </aside>
+</header>
