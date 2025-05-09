@@ -74,7 +74,7 @@ body {
 
 /* HAMBURGER MENU */
 .hamburger-menu {
-    display: none;
+    display: none !important;
     background: transparent;
     border: none;
     font-size: 26px;
@@ -153,15 +153,57 @@ body {
 
 .container {
     max-width: 900px;
-    padding: 0 20px;
+    padding: 40px 20px;
     margin-top: 150px;
-    height: 100vh;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #F3DBDA 0%, #FFE692 60%, #D3D6D5 100%);
     border-radius: 1.5rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
+
+.footer {
+    background: linear-gradient(to right, #f7d2e8, #fef0d2);
+    color: #333;
+    padding: 30px 20px 10px;
+    font-family: 'Lora', serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-info h3 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #b35d9b;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+
 
 /* MEDIA QUERIES */
 
@@ -192,8 +234,9 @@ body {
 }
 
 @media (max-width: 600px) {
+
     .hamburger-menu {
-        display: none;
+        display: block !important;
     }
 
     .box-seccion {
@@ -208,10 +251,6 @@ body {
     .nav-img {
         height: 70px;
         width: 70px;
-    }
-
-    .hamburger-menu {
-        font-size: 24px;
     }
 
     .profile-img {
